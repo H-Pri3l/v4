@@ -97,7 +97,7 @@ acs=`cat<<EOF
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
-      "path": "/worryfree",
+      "path": "/vmess",
       "type": "none",
       "host": "",
       "tls": "tls"
@@ -112,7 +112,7 @@ ask=`cat<<EOF
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
-      "path": "/worryfree",
+      "path": "/vmess",
       "type": "none",
       "host": "",
       "tls": "none"
@@ -154,7 +154,7 @@ echo -e "id             : ${uuid}" | tee -a /etc/log-create-user.log
 echo -e "alterId        : 0" | tee -a /etc/log-create-user.log
 echo -e "Security       : auto" | tee -a /etc/log-create-user.log
 echo -e "Network        : ws" | tee -a /etc/log-create-user.log
-echo -e "Path           : /worryfree" | tee -a /etc/log-create-user.log
+echo -e "Path           : /vmess" | tee -a /etc/log-create-user.log
 echo -e "ServiceName    : vmess-grpc" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Link TLS       : ${vmesslink1}" | tee -a /etc/log-create-user.log
