@@ -163,7 +163,7 @@ echo -e "alterId        : 0" | tee -a /etc/log-create-user.log
 echo -e "Security       : auto" | tee -a /etc/log-create-user.log
 echo -e "Network        : ws" | tee -a /etc/log-create-user.log
 echo -e "Path           : /vmess" | tee -a /etc/log-create-user.log
-echo -e "Extra Path     : /worry-free/ & /kuota/habis/" | tee -a /etc/log-create-user.log
+echo -e "Extra Path     : /worryfree & /kuota-habis" | tee -a /etc/log-create-user.log
 echo -e "ServiceName    : vmess-grpc" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Link TLS       : ${vmesslink1}" | tee -a /etc/log-create-user.log
