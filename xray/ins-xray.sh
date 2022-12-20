@@ -705,7 +705,7 @@ wget -O add-ws "https://raw.githubusercontent.com/H-Pri3l/v4/main/xray/add-ws.sh
 wget -O trialvmess "https://raw.githubusercontent.com/bracoli/v4/main/xray/trialvmess.sh" && chmod +x trialvmess
 wget -O renew-ws "https://raw.githubusercontent.com/bracoli/v4/main/xray/renew-ws.sh" && chmod +x renew-ws
 wget -O del-ws "https://raw.githubusercontent.com/bracoli/v4/main/xray/del-ws.sh" && chmod +x del-ws
-wget -O cek-ws "https://raw.githubusercontent.com/bracoli/v4/main/xray/cek-ws.sh" && chmod +x cek-ws
+wget -O cek-ws "https://raw.githubusercontent.com/H-Pri3l/v4/main/xray/cek-ws.sh" && chmod +x cek-ws
 
 # vless
 wget -O add-vless "https://raw.githubusercontent.com/bracoli/v4/main/xray/add-vless.sh" && chmod +x add-vless
