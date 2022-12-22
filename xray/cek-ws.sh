@@ -49,7 +49,6 @@ fi
 rm -rf /tmp/ipvmess.txt
 done
 oth=$(cat /tmp/other.txt | sort | uniq | nl)
-echo "other";
 echo "$oth";
 echo "----------------------------------------"
 echo "Script Mod By ZIXSTYLE"
