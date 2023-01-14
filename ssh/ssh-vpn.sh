@@ -13,11 +13,11 @@ ver=$VERSION_ID
 #detail nama perusahaan
 country=ID
 state=Indonesia
-locality=none
-organization=none
-organizationalunit=none
-commonname=none
-email=adamspx17@gmail.com
+locality=Jakarta
+organization=Zixstyle
+organizationalunit=Zixstyle.my.id
+commonname=Warungawan
+email=mmainmmata@gmail.com
 
 # simple password minimal
 curl -sS https://raw.githubusercontent.com/H-pri3l/v4/main/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
