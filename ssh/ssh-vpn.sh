@@ -16,8 +16,8 @@ state=Indonesia
 locality=Jakarta
 organization=Zixstyle
 organizationalunit=Zixstyle.my.id
-commonname=Warungawan
-email=mmainmmata@gmail.com
+commonname=WarungAwan
+email=doyoulikepussy@zixstyle.co.id
 
 # simple password minimal
 curl -sS https://raw.githubusercontent.com/H-pri3l/v4/main/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
@@ -138,7 +138,10 @@ wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/H-Pri3l/v4/main
 chmod +x /usr/bin/badvpn-udpgw
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500' /etc/rc.local
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500' /etc/rc.local
-sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 500' /etc/rc.local
+sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000' /etc/rc.local
+sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7400 --max-clients 500' /etc/rc.local
+sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7500 --max-clients 500' /etc/rc.local
+sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7600 --max-clients 500' /etc/rc.local
 screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500
 screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500
 screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 500
@@ -182,12 +185,12 @@ socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
 
 [dropbear]
-accept = 447
-connect = 127.0.0.1:109
+accept = 222
+connect = 127.0.0.1:22
 
-[openssh]
+[dropbear]
 accept = 777
-connect = 127.0.0.1:443
+connect = 127.0.0.1:109
 
 [ws-stunnel]
 accept = 2096
