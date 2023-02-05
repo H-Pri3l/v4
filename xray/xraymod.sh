@@ -16,9 +16,11 @@ WB='\e[37;1m'
 echo ""
 echo -e "${YB}[ INFO ] Change Custom Xray-core${NC}"
 # Install Xray-core Mod
-rm -rf /etc/xray
-cp /backup/xray.mod.backup /etc/xray
-chmod 755 /etc/xray
+mkdir /backup
+wget -O /backup/xray.mod.backup https://github.com/dharak36/Xray-core/releases/download/v1.0.0/xray.linux.64bit
+rm -rf /usr/local/bin/xray
+cp /backup/xray.mod.backup /usr/local/bin/xray
+chmod 755 /usr/local/bin/xray
 systemctl restart xray
 sleep 1
 echo -e "${YB}[ INFO ] Change Custom Xray-core done${NC}"
