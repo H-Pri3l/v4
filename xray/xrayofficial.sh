@@ -17,7 +17,7 @@ echo ""
 echo -e "${YB}[ INFO ] Change Xray-core Official${NC}"
 # Install Xray-core Official
 rm -rf /etc/xray
-cp /backup/xray.official.backup /etc/xray
+cp /backup/xray.official.backup /usr/local/bin/xray
 chmod 755 /usr/local/bin/xray
 systemctl restart xray
 sleep 1
